@@ -95,10 +95,10 @@ sudo nano /usr/share/applications/android-studio.desktop
 # ---------------------------------------- | Replace the Nitrosense software | ---------------------------------------- #
 sudo apt update
 # If the machine reports that there is no dotnet-sdk-7.0, you can replace it with dotnet-sdk-6.0 or another version.
-sudo apt install dotnet-sdk-7.0 libhidapi-dev libusb-1.0-0-dev libsystemd-dev git build-essential
-sudo apt install libcurl4-openssl-dev
-sudo apt install libssl-dev
+sudo apt install dotnet-sdk-8.0 libhidapi-dev libusb-1.0-0-dev libsystemd-dev git build-essential libcurl4-openssl-dev libssl-dev
 # Translate and install nbfc.
+git clone https://github.com/nbfc-linux/nbfc-linux.git
+cd nbfc
 make
 sudo make install
 # List the machine models that you can apply. You can check the letter with one of the commands.
