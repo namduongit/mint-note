@@ -18,6 +18,7 @@ bzip2
 ca-certificates
 code
 console-setup
+containerd.io
 coreutils
 cpio
 cron
@@ -25,6 +26,7 @@ cron-daemon-common
 curl
 dash
 dbus
+dbus-x11
 debconf
 debconf-i18n
 debian-archive-keyring
@@ -34,6 +36,10 @@ dhcpcd-base
 diffutils
 dmidecode
 doc-debian
+docker-buildx-plugin
+docker-ce
+docker-ce-cli
+docker-compose-plugin
 dpkg
 e2fsprogs
 fastfetch
@@ -51,6 +57,7 @@ firmware-misc-nonfree
 firmware-nvidia-graphics
 firmware-realtek
 firmware-sof-signed
+flameshot
 fonts-liberation
 fonts-noto
 fonts-noto-cjk
@@ -79,6 +86,7 @@ installation-report
 intel-microcode
 iproute2
 iputils-ping
+iw
 keyboard-configuration
 kmod
 krb5-locales
@@ -184,6 +192,7 @@ logsave
 lsof
 man-db
 manpages
+maven
 mawk
 media-types
 mesa-utils
@@ -238,6 +247,7 @@ tumbler
 tzdata
 ucf
 udev
+udisks2
 unzip
 usbutils
 util-linux
